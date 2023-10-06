@@ -23,7 +23,7 @@ source "amazon-ebs" "ubuntu" {
   ssh_username = "ubuntu"
 }
 
-
+#build the image
 build {
   name = "docker-packer"
   sources = [
